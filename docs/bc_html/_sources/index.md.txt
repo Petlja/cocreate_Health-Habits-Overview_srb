@@ -1,37 +1,37 @@
 ﻿---
 status: exclude
 alias: PLCT_Template
-short_descripiton: Kratak opis kursa
+short_description: Short course description
 long_description: >
-    <p>Ovaj kurs će vas upoznati ...</p>
+    <p>This course will introduce you ...</p>
     <p>
     <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.sr_LATN">
     <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a>
-    <br>Овај курс Фондација Петља објавила je под лиценцом <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.sr_LATN">Creative Commons Autorstvo 4.0 Međunarodna Licenca (CC BY 4.0)</a>.
+    <br>This course was published by Petlja Foundation under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.sr_LATN">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>.
     </p>
 will_learn:
-    - Sta ces naučiti?
+    - What will you learn?
 
 needed: 
-    - Lični računar sa ažurnom verzijom *Windows 11* operativnog sistema
+    - A personal computer with an up-to-date version of *Windows 11* operating system
 useful:
     - Python 3.12 documentation: https://docs.python.org/3.12/
 ---
-# Analiza podataka - Vizuelizacija
 
-Pred vama je uvodni kurs ......
+# Data Analysis - Visualization
 
-Autor kursa: Fondacija Petlja
+You are about to start an introductory course ......
 
-Ovaj kurs Fondacija Petlja objavljuje pod licencom
-[Creative Commons Autorstvo 4.0 Međunarodna Licenca (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.sr_LATN).
+Course author: Petlja Foundation
+
+This course is published by Petlja Foundation under the
+[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.sr_LATN).
 
 
 ```{toctree}
 :maxdepth: 2
-:caption: Sadržaj
+:caption: Contents
 :hidden:
 
-dobrodosli/index
-detaljnije/index
-``` 
+welcome/index
+detailed/index
