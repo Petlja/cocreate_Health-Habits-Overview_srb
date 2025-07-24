@@ -92,4 +92,4 @@ html_show_sourcelink = False
 #     app.connect('builder-inited', on_builder_inited)
 
 #additional_build_targets =['scorm' , 'moodle']
-#content_uri = 'https://petljastorage.blob.core.windows.net/kursevi/2023/etit1_prog/'
+content_uri = './'
