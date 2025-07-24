@@ -1,0 +1,1 @@
+Template za kreiranje PLCT kurs repozitorijuma
