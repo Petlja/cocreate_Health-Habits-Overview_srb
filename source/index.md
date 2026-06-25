@@ -1,12 +1,14 @@
 ﻿---
 status: exclude
 alias: cocreate-health-habits
-short_description: Анализа података о здравим навикама
+short_description: Пивот табеле и графикони
 long_description: >
     <p>Овај курс уводи ученике у анализу података помоћу пивот табела и пивот графикона. Кроз практичан рад на рачунару, ученици уче како да организују, групишу, филтрирају и визуелно прикажу податке, као и како да из њих изведу закључке. Током курса ученици ће уочити разлике између обичних и пивот табела и графика и постепено развијати сигурност у анализи података кроз сараднички рад..</p>
+    
+    <p>Ovaj kurs je napravljen u okviru Erasmus+ projekta <a rel="license" href="https://erasmus-cocreate.petlja.org">CoCreate - Computer-Supported Collaborative Learning for Inclusive Education</a>
+    </p>
     <p>
-    <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.sr_LATN">
-    <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a>
+
     <br>This course was published by Petlja Foundation under the <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.sr_LATN">Creative Commons Attribution 4.0 International License (CC BY 4.0)</a>.
     </p>
 will_learn:
@@ -20,6 +22,7 @@ will_learn:
 
 needed: 
     - Рачунар са инсталираним програмом Microsoft Excel или приступом Google Sheets
+    - Три школска часа
 useful:
     - Python 3.12 documentation: https://docs.python.org/3.12/
 ---
