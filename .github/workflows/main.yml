@@ -13,12 +13,12 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v7
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v7
       with:
-        python-version: '3.9'
+        python-version: '3.12'
 
     - name: Install dependencies from requirements.txt
       run: |
@@ -36,7 +36,7 @@ jobs:
       id: publish
       run: |
         COURSE_ID=$(python -c "import json; data = json.load(open('docs/course.json', 'r', encoding='utf-8')); print(data['toc_tree']['meta_data']['alias'])")
-        echo "::set-output name=courseId::$COURSE_ID"
+        echo "courseId=$COURSE_ID" >> "$GITHUB_OUTPUT"
 
     - name: Install Azure CLI
       run: |

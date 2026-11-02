@@ -5,4 +5,4 @@ sphinx-design
 sphinx-copybutton
 sphinx-autobuild
 plct-sphinx-components
-setuptools
+setuptools<82  # setuptools 82 removed pkg_resources, which plct still imports
